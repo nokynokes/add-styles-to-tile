@@ -38,7 +38,7 @@ export const Image = <T extends ImageExtended>(
       data-testid="grid-gallery-item"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      style={styles.galleryItem({ margin: props.margin })}
+      style={{...getStyle(props.tileStyle, () => {return {}}, styleContext), ...styles.galleryItem({ margin: props.margin })}}
     >
       <div
         className="ReactGridGallery_tile-icon-bar"

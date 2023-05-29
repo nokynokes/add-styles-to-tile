@@ -1,5 +1,5 @@
 {
-  "name": "react-grid-gallery",
+  "name": "react-grid-gallery-style-tile",
   "version": "1.0.0",
   "description": "Justified gallery component for React.",
   "types": "dist/react-grid-gallery.d.ts",

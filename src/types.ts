@@ -65,6 +65,7 @@ export interface ImageProps<T extends ImageExtended = ImageExtended> {
   isSelectable: boolean;
   onClick: (index: number, event: MouseEvent<HTMLElement>) => void;
   onSelect: (index: number, event: MouseEvent<HTMLElement>) => void;
+  tileStyle: StyleProp<T>;
   tileViewportStyle: StyleProp<T>;
   thumbnailStyle: StyleProp<T>;
   tagStyle: StyleProp<T>;
@@ -94,6 +95,7 @@ export interface GalleryProps<T extends Image = Image> {
   margin?: number;
   defaultContainerWidth?: number;
   onClick?: EventHandler<T>;
+  tileStyle?: StyleProp<T>;
   tileViewportStyle?: StyleProp<T>;
   thumbnailStyle?: StyleProp<T>;
   tagStyle?: StyleProp<T>;

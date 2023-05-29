@@ -61,6 +61,7 @@ export const Gallery = <T extends ImageInterface>(
             onClick={handleClick}
             onSelect={handleSelect}
             tagStyle={props.tagStyle}
+            tileStyle={props.tileStyle}
             tileViewportStyle={props.tileViewportStyle}
             thumbnailStyle={props.thumbnailStyle}
             thumbnailImageComponent={props.thumbnailImageComponent}
